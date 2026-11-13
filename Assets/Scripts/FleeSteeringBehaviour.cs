@@ -15,10 +15,6 @@ public class FleeSteeringBehaviour : SteeringBehaviourBase
         {
             target = enemyTarget.position;
         }
-        else
-        {
-            CheckMouseInput();
-        }
 
         float distance = (transform.position - target).magnitude;
         if (distance > fleeDistance)

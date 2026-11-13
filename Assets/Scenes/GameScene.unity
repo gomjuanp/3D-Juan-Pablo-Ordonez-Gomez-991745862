@@ -7185,7 +7185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SteeringAgent
   mass: 1
-  maxSpeed: 3
+  maxSpeed: 1
   maxForce: 10
   velocity: {x: 0, y: 0, z: 0}
   angularDampeningTime: 5
@@ -7654,7 +7654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SteeringAgent
   mass: 1
-  maxSpeed: 3
+  maxSpeed: 1
   maxForce: 10
   velocity: {x: 0, y: 0, z: 0}
   angularDampeningTime: 5
@@ -7999,7 +7999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SteeringAgent
   mass: 1
-  maxSpeed: 3
+  maxSpeed: 1
   maxForce: 10
   velocity: {x: 0, y: 0, z: 0}
   angularDampeningTime: 5

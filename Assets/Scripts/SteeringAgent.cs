@@ -5,7 +5,7 @@ using UnityEngine;
 public class SteeringAgent : MonoBehaviour
 {
     public float mass = 1.0f;
-    public float maxSpeed = 3.0f;
+    public float maxSpeed = 1.0f;
     public float maxForce = 10.0f;
     public Vector3 velocity = Vector3.zero;
 

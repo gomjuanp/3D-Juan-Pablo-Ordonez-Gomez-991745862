@@ -34,7 +34,7 @@ public class WanderSteeringBehaviour : SeekSteeringBehaviour
         target = steeringAgent.transform.rotation * target + steeringAgent.transform.position;
 
         seekTarget = null;
-        useMouseInput = false;
+        shouldReachGoal = false;
         return base.CalculateForce();
     }
 
