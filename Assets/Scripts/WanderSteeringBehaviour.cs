@@ -33,6 +33,8 @@ public class WanderSteeringBehaviour : SeekSteeringBehaviour
         target = wanderTarget + new Vector3(0, 0, wanderDistance);
         target = steeringAgent.transform.rotation * target + steeringAgent.transform.position;
 
+        seekTarget = null;
+        useMouseInput = false;
         return base.CalculateForce();
     }
 
